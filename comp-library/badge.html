@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Badge | Docs</title>
+		<link rel="stylesheet" href="./allcomps.css" />
+		<link
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+			rel="stylesheet"
+		/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<main class="main-container">
+			<header class="header">
+				<div class="flex-hz">
+					<a class="flex-hz link-no-style" href="../index.html">
+						<div class="logo-container">
+							<img class="img-round" src="./logo.png" />
+						</div>
+						<div class="brand-name typo-label">Sree's-UI</div>
+					</a>
+				</div>
+				<div class="flex-hz">
+					<a
+						class="btn btn-icon"
+						href="https://github.com/sreevidyanattuva"
+						target="_blank"
+					>
+						<i class="fa fa-github fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
+			</header>
+			<div class="sidebar">
+				<div class="drawer">
+					<div class="drawer-header">
+						<h4 class="typo-label">Welcome!!!</h4>
+					</div>
+					<div class="drawer-body">
+						<a class="drawer-item link-no-style" href="./index.html">
+							<p>Home</p>
+						</a>
+					</div>
+					<div class="drawer-header">
+						<h4 class="typo-label">Components</h4>
+					</div>
+					<div class="drawer-body">
+						<a class="drawer-item link-no-style" href="./avatar.html">
+							<p>Avatar</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./alert.html">
+							<p>Alert</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./badge.html">
+							<p>Badge</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./button.html">
+							<p>Button</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./cards.html">
+							<p>Card</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./images.html">
+							<p>Image</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./input.html">
+							<p>Input</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./typography.html">
+							<p>Typography</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./modal.html">
+							<p>Modal</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./list.html">
+							<p>List</p>
+						</a>
+						<!-- <a class="drawer-item link-no-style" href="./rating.html">
+							<p>Rating</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./snackbar.html">
+							<p>Snackbar</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./grid.html">
+							<p>Grid</p>
+						</a> -->
+					</div>
+				</div>
+			</div>
+			<div class="main-content">
+					<!-- icon-badge -->
+					<div class="component-example">
+						<div class="main-title">Button of Badge</div>
+                        <div class="sub-title">
+							Two different Icons with badges
+						</div>
+						<div class="component-display-container">
+                                <div class = icon-container >
+                                <span class="material-icons">home</span>
+                                <span class="badge-content icon-badge">18</span>
+                            </div>
+							<div class="icon-container">
+                            <span class="material-icons">notifications</span>
+                            <span class="badge-content icon-badge">18</span>
+                            </div>
+						</div>
+						<div class="code-snippet-display">
+							<code>
+								<iframe
+								src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component-example%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522title%2522%253EButton%2520of%2520Badge%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522component-display-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520icon-container%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ehome%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-content%2520icon-badge%2522%253E18%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icon-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Enotifications%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-content%2520icon-badge%2522%253E18%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E"
+								style="width: 875px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+								sandbox="allow-scripts allow-same-origin">
+								</iframe>
+							</code>
+						</div>
+					</div>
+					<!-- status badge -->
+					<div class="component-example">
+						<div class="title">Status of Badge</div>
+						<div class="sub-title">
+							Avatar(different sizes) with 3 different status badges.
+						</div>
+
+						<div class="component-display-container">
+							<div class="avatar avatar-large icon-container">
+								<img
+									class="img-round"
+									loading="lazy"
+									src="https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg"
+								/>
+								<span class="badge-status status-badge-large status-online"></span>
+							</div>
+
+							<div class="avatar avatar-medium icon-container">
+								<img
+									class="img-round"
+									loading="lazy"
+									src="https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg"
+								/>
+								<span
+									class="badge-status status-badge-medium status-offline"
+								></span>
+							</div>
+
+							<div class="avatar avatar-small icon-container">
+								<img
+									class="img-round"
+									loading="lazy"
+									src="https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg"
+								/>
+								<span class="badge-status status-badge-small status-dnd"></span>
+							</div>
+						</div>
+						<div class="code-snippet-display">
+							<code>
+								<iframe
+								src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=1190&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component-display-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520icon-container%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cimg%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509class%253D%2522img-round%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509loading%253D%2522lazy%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509src%253D%2522https%253A%252F%252Fpixinvent.com%252Fmaterialize-material-design-admin-template%252Fapp.jpg%2520%2520%2520%250A%2509%2509%2509%2509%2509%2509%2509%2509%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cspan%2520class%253D%2522badge-status%2520status-badge-large%2520status-online%2522%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520icon-container%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cimg%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509class%253D%2522img-round%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509loading%253D%2522lazy%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509src%253D%2522https%253A%252F%252Fpixinvent.com%252Fmaterialize-material-design-admin-template%252Fapp.jpg%250A%2509%2509%2509%2509%2509%2509%2509%2509%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cspan%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509class%253D%2522badge-status%2520status-badge-medium%2520status-offline%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%253E%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520icon-container%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cimg%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509class%253D%2522img-round%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509loading%253D%2522lazy%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509src%253D%2522https%253A%252F%252Fpixinvent.com%252Fmaterialize-material-design-admin-template%252Fapp.jpg%250A%2509%2509%2509%2509%2509%2509%2509%2509%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cspan%2520class%253D%2522badge-status%2520status-badge-small%2520status-dnd%2522%253E%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E"
+								style="width: 1237px; height: 726px; border:0; transform: scale(1); overflow:hidden;"
+								sandbox="allow-scripts allow-same-origin">
+								</iframe>
+							</code>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

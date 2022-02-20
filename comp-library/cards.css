@@ -1,0 +1,126 @@
+.card {
+	max-width: 350px;
+	width: 100%;
+	height: fit-content;
+	border-radius: 5px;
+	background-color: var(--card-bg-color);
+	box-shadow: 0 3px 10px var(--box-shadow);
+}
+.card-img-container {
+	width: 100%;
+	max-height: 350px;
+	object-fit: contain;
+}
+.card-body {
+	/* background-color: rgb(235, 228, 228); */
+	padding: 1rem;
+}
+.card-heading,
+.card-subheading,
+.card-info {
+	margin: 0;
+}
+.card-heading {
+	font-size: 2rem;
+	font-weight: bold;
+	color:rgb(59, 17, 37);
+}
+.ecom-card-heading{
+	font-size: 2rem;
+	font-weight: bold;
+	color:rgb(20, 2, 11);
+}
+.card-subheading {
+	padding-top: 0.5rem;
+	color: var(--secondary-txt-color);
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+.card-info {
+	padding: 1rem 0;
+	color: var(--secondary-txt-color);
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+.card-footer-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card-footer-btn {
+	display: flex;
+	gap: 0 1rem;
+}
+.card-footer-icon {
+	display: flex;
+	flex-direction: row;
+}
+.pos-relative {
+	position: relative;
+}
+
+.txt-over-image {
+	position: absolute;
+	left: 1rem;
+	top: 50%;
+}
+.txt-white {
+	color: #fff;
+}
+
+.hz-card-img {
+	width: 10rem;
+	height: 100%;
+	border-radius: 0;
+}
+
+.horizontal-card {
+	max-width: 50rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.horizontal-card-image {
+	height: 20rem;
+	width: 15rem;
+	object-fit: cover;
+}
+.horizontal-card-body {
+	width: 100%;
+}
+.separater {
+	margin: 2rem 0;
+}
+.ecommerce-card-footer {
+	justify-content: space-around;
+	padding: 1rem;
+}
+
+.badge-image-container {
+	position: relative;
+}
+.chip {
+	background-color: var(--primary-color);
+	color: var(--complimentary-font-color);
+	padding: 1rem;
+	padding-right: 15%;
+	border-radius: 10px;
+	clip-path: polygon(0% 0%, 75% 0%, 44% 48%, 75% 100%, 0% 100%);
+}
+.ecommerce-chip-left {
+	position: absolute;
+	top: 1.5rem;
+	left: 1rem;
+}
+.ecommerce-chip-right {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+.text-striked {
+	text-decoration: line-through;
+}
