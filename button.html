@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Button | Docs</title>
+		<link rel="stylesheet" href="comp-lib/allcomps.css" />
+        <link
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<main class="main-container">
+			<header class="header">
+				<div class="flex-hz">
+					<!-- <button class="btn btn-icon btn-menu" onclick="openMobileSidebar()">
+						<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+					</button> -->
+					<a class="flex-hz link-no-style" href="../index.html">
+						<div class="logo-container">
+							<img class="img-round" src="./logo.png" />
+						</div>
+						<div class="brand-name typo-label">Sree's-UI</div>
+					</a>
+				</div>
+				<div class="flex-hz">
+					<a
+						class="btn btn-icon"
+						href="https://github.com/sreevidyanattuva"
+						target="_blank"
+					>
+						<i class="fa fa-github fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
+			</header>
+			<div class="sidebar">
+				<div class="drawer">
+					<div class="drawer-header">
+						<h4 class="typo-label">Welcome!!!</h4>
+					</div>
+					<div class="drawer-body">
+						<a class="drawer-item link-no-style" href="./index.html">
+							<p>Home</p>
+						</a>
+					</div>
+					<div class="drawer-header">
+						<h4 class="typo-label">Components</h4>
+					</div>
+					<div class="drawer-body">
+						<a class="drawer-item link-no-style" href="./avatar.html">
+							<p>Avatar</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./alert.html">
+							<p>Alert</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./badge.html">
+							<p>Badge</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./button.html">
+							<p>Button</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./cards.html">
+							<p>Card</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./images.html">
+							<p>Image</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./input.html">
+							<p>Input</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./typography.html">
+							<p>Typography</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./modal.html">
+							<p>Modal</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./list.html">
+							<p>List</p>
+						</a>
+						<!-- <a class="drawer-item link-no-style" href="./rating.html">
+							<p>Rating</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./snackbar.html">
+							<p>Snackbar</p>
+						</a>
+						<a class="drawer-item link-no-style" href="./grid.html">
+							<p>Grid</p>
+						</a> -->
+					</div>
+				</div>
+			</div>
+
+			<div class="main-content">
+				<!-- componen-1 -->
+
+				<div class="component-container">
+					<div class="component-intro">
+						<div class="main-title">Button</div>
+						<div class="sub-title">
+							Buttons that are available here. Primary, Link, Icon Button, Floating Action button.
+						</div>
+					</div>
+
+					<div class="component-example">
+						<div class="title">Primary and Link Button</div>
+						<div class="component-display-container">
+							<button class="btn btn-primary">Primary Button</button>
+							<button class="btn btn-outlined">Outlined Button</button>
+							<a href="https://neog.camp" class="btn btn-link" target="_blank">
+								Click here
+							</a>
+						</div>
+						<div class="code-snippet-display">
+							<code>
+								<iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-outlined%2522%253EOutlined%2520Button%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ca%2520href%253D%2522https%253A%252F%252Fneog.camp%2522%2520class%253D%2522btn%2520btn-link%2522%2520target%253D%2522_blank%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509Click%2520here%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fa%253E"
+                                    style="width: 934px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+							</code>
+						</div>
+					</div>
+					<div class="component-example">
+						<div class="title">Buttons with icons</div>
+						<div class="sub-title">
+                             Button with Icon in it.
+						</div>
+						<div class="component-display-container">
+							<button class="btn btn-primary btn-with-icon">
+								<i class="fa fa-briefcase fa-1x"></i>
+								Button with icon
+							</button>
+						</div>
+						<div class="code-snippet-display">
+							<code>
+								<iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-with-icon%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-briefcase%2520fa-1x%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509Button%2520with%2520icon%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fbutton%253E"
+                                    style="width: 774px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+							</code>
+						</div>
+					</div>
+					<div class="component-example">
+						<div class="title">Icon Button and Floating action button</div>
+						<div class="sub-title">
+							Icon button and outlined Icon button.
+							<br />
+							<br />
+							Example of Floating action button is at bottom right corner.
+						</div>
+
+						<div class="component-display-container">
+							<button class="btn btn-primary btn-icon">
+								<i class="fa fa-comment fa-2x"></i>
+							</button>
+							<button class="btn btn-outlined btn-icon">
+								<i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+							</button>
+							<button class="btn btn-floating-action">
+								<i class="fa fa-arrow-up fa-lg" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="code-snippet-display">
+							<code>
+								<iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-icon%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-comment%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-outlined%2520btn-icon%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-briefcase%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-floating-action%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-arrow-up%2520fa-lg%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fbutton%253E"
+                                style="width: 892px; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+							</code>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

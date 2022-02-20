@@ -1,0 +1,79 @@
+.btn {
+	padding: 1rem;
+	border: 4px solid transparent;
+	border-radius: 5px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	justify-content: center;
+	align-items: center;
+	color: rgb(201, 81, 111);
+}
+
+.btn-primary {
+	background-color:rgb(39, 11, 22);
+	color: var(--complimentary-font-color);
+}
+.btn-primary:hover {
+	background-color:rgb(133, 45, 71) ;
+	cursor: pointer;
+}
+.btn-outlined {
+	background-color: transparent;
+	border: 2px solid rgb(85, 22, 32);
+	color: rgb(85, 22, 32);
+}
+.btn-outlined:hover {
+	cursor: pointer;
+	background-color: var(--hover-color);
+	color: var(--dark-primary-color);
+	border-color: var(--dark-primary-color);
+}
+.btn-link {
+	color: var(--primary-color);
+    text-decoration: none;
+}
+.btn-link:hover {
+	background-color: var(--hover-color);
+	cursor: pointer;
+}
+.btn-icon {
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	border-color: transparent;
+	background-color: transparent;
+	color: rgb(129, 18, 60);
+}
+.btn-icon:hover {
+	cursor: pointer;
+	background-color: var(--hover-color);
+	color: var(--dark-primary-color);
+}
+.btn-with-icon {
+	display: flex;
+	gap: 1rem;
+}
+
+.btn-floating-action {
+	width: 5rem;
+	height: 5rem;
+	background-color: var(--primary-color);
+	color: var(--complimentary-font-color);
+	border-radius: 50%;
+	box-shadow: 0 6px 10px 0 var(--box-shadow);
+
+	font-size: 2rem;
+
+	position: fixed;
+	right: 5rem;
+	bottom: 5rem;
+
+}
+.btn-floating-action:hover {
+	box-shadow: 0 10px 15px 0 var(--box-shadow);
+	background-color: var(--dark-primary-color);
+	transform: scale(1.05);
+	cursor: pointer;
+}
+.btn-floating-action:focus {
+	border-radius: 50%;
+}
