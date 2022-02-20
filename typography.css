@@ -1,0 +1,54 @@
+.h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+.h2 {
+	font-size: 3.5rem;
+	font-weight: 500;
+}
+.h3 {
+	font-size: 3rem;
+	font-weight: 500;
+}
+.h4 {
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+.h5 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+.h6 {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.typo-label {
+	font-size: 2rem;
+	font-weight: 500;
+}
+.typo-subtext {
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+.typo-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+.typo-bold {
+	font-weight: bold;
+}
+.text-line-through {
+	text-decoration: line-through;
+}
+.text-bold {
+	font-weight: bold;
+}
+.text-italic {
+	font-style: italic;
+}
+.text-highlight {
+	background-color: var(--highlight-color);
+}
+.text-primary {
+	color: var(--primary-color);
+}
