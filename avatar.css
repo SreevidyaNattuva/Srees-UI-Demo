@@ -1,0 +1,27 @@
+.avatar {
+	/* border: 5px solid var(--dark-primary-color); */
+	border-radius: 50%;
+	object-fit: cover;
+}
+.avatar-large {
+	width: 10rem;
+	height: 10rem;
+	font-size: 4rem;
+}
+.avatar-medium {
+	width: 7.5rem;
+	height: 7.5rem;
+	font-size: 2rem;
+}
+.avatar-small {
+	width: 5rem;
+	height: 5rem;
+	font-size: 1rem;
+}
+.avatar-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+	color: var(--complimentary-font-color);
+}
