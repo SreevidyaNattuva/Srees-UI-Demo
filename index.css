@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+.index-container{
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://media.istockphoto.com/vectors/modern-trendy-abstract-shapes-in-pastel-colors-scandinavian-clean-vector-id1190577091?k=20&m=1190577091&s=612x612&w=0&h=dam-xb57R-8JLzSciw0ADnWmTm8aD78BBIGE93G-7I0=");
+}
+.welcome{
+    font-size: 7rem;
+    color: rgb(12, 8, 78);
+}
+.main-heading{
+    font-size: 7rem;
+    color: rgb(87, 44, 53); 
+}
+.a1,.a2{
+    text-decoration: none;
+    font-size: xx-large;
+}
+.a1{
+    color: whitesmoke;
+    
+}
+.a2{
+    color:rgb(31, 9, 14) ;
+    
+}
+.button-container{
+    display: flex;
+    gap: 2rem;
+}
