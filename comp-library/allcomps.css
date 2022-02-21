@@ -29,9 +29,8 @@
 	--secondary-txt-color:#311d27;
 	--complimentary-font-color: #fffefe;
 
-	/* --primary-bg-color: #fffefe;
-	--secondary-bg-color: #fffefe;
-	--border-color: E4E6EB; */
+	--primary-background-color: #fffefe;
+	
 
 	--hover-color: #e9f5ff;
 
@@ -95,10 +94,6 @@ main {
 	align-items: center;
 	gap: 1rem;
 }
-.logo-container {
-	width: 50px;
-	height: 50px;
-}
 .brand-name {
 	color: var(--primary-font-color);
 	font-weight: 500;
@@ -107,7 +102,14 @@ main {
 	text-decoration: none;
 	color: var(--primary-font-color);
 }
-
+.component-container,
+.component-intro,
+.component-example,
+.component-display-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
 .sidebar {
 	grid-area: navigation;
 	overflow-y: scroll;
@@ -121,31 +123,12 @@ main {
 .btn-menu {
 	display: none;
 }
-.mobile-sidebar {
-	grid-area: mobile-nav;
-	display: none;
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	background-color: var(--primary-bg-color);
-	z-index: 10;
-	overflow-y: scroll;
-}
 .main-content {
 	grid-area: main;
 	overflow-y: scroll;
 	max-height: calc(100vh - 100px);
 	margin-bottom: 2rem;
 	margin-top: 3rem;
-}
-
-.component-container,
-.component-intro,
-.component-example,
-.component-display-container {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
 }
 
 .title {
@@ -172,7 +155,7 @@ main {
 	padding: 1rem;
 	border: 2px solid var(--primary-color);
 }
-.continer-vertical {
+.container-vertical {
 	flex-direction: column;
 	gap: 0;
 	align-items: flex-start;
