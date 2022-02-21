@@ -29,7 +29,7 @@
 	border-color: var(--dark-primary-color);
 }
 .btn-link {
-	color: var(--primary-color);
+	color: rgb(99, 19, 63);
     text-decoration: none;
 }
 .btn-link:hover {
@@ -56,21 +56,19 @@
 .btn-floating-action {
 	width: 5rem;
 	height: 5rem;
-	background-color: var(--primary-color);
+	background-color: rgb(99, 19, 63);
 	color: var(--complimentary-font-color);
 	border-radius: 50%;
 	box-shadow: 0 6px 10px 0 var(--box-shadow);
-
-	font-size: 2rem;
-
+	font-size: 1.5rem;
 	position: fixed;
 	right: 5rem;
 	bottom: 5rem;
-
 }
+
 .btn-floating-action:hover {
 	box-shadow: 0 10px 15px 0 var(--box-shadow);
-	background-color: var(--dark-primary-color);
+	background-color:rgb(110, 48, 82);
 	transform: scale(1.05);
 	cursor: pointer;
 }
