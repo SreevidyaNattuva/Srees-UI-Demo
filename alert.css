@@ -1,0 +1,33 @@
+.alert {
+	display: flex;
+	width: 90%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0 1rem;
+	padding: 0 2rem;
+	font-size: 1.6rem;
+	border: 2px solid;
+	border-radius: 5px;
+}
+.alert-normal {
+	background-color: #e2ec83;
+	color: #9a9c22;
+	border-color: #857803;
+}
+.alert-danger {
+	background-color: #faced4;
+	color: #eb2b2b;
+	border-color: #a70717;
+}
+.alert-success {
+	background-color: #d1fad3;
+	color: #10b91e;
+	border-color: #116e09;
+}
+.alert-sub-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0 1rem;
+}

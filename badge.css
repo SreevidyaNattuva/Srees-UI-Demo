@@ -1,0 +1,100 @@
+.icon-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 10rem;
+	position: relative;
+    border-radius: 50%;
+    margin-top: 0.8rem;
+}
+.icon-container:hover{
+    cursor: pointer;
+}
+.icon-container:active{
+    background: #cccccc;
+}
+.badge-content {
+	background-color: rgb(128, 43, 57);
+	color: var(--complimentary-font-color);
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	padding: 1rem;
+	font-size: 1rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.badge-large {
+	font-size: 2rem;
+	width: 1rem;
+	height: 1rem;
+}
+.badge-right {
+	right: -2rem;
+	top: -2rem;
+}
+.btn-badge-left {
+	top: -1rem;
+	left: -1rem;
+}
+
+.btn-badge-right {
+	top: -1rem;
+	right: -1rem;
+}
+.icon-badge {
+	top: -1.5rem;
+	right: -1.5rem;
+    font-size: 1rem;
+}
+
+.badge-status {
+	position: absolute;
+	width: 1rem;
+	height: 1rem;
+	padding: 3px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 2px;
+	right: 2px;
+}
+.status-badge-large {
+	bottom: 5px;
+	right: 6px;
+	border: 3px solid var(--complimentary-font-color);
+}
+.status-badge-medium {
+	width: 0.8rem;
+	height: 0.8rem;
+	bottom: 2px;
+	right: 2px;
+	border: 2px solid var(--complimentary-font-color);
+}
+.status-badge-small {
+	width: 0.5rem;
+	height: 0.5rem;
+	bottom: 1px;
+	right: 1px;
+	border: 1px solid var(--complimentary-font-color);
+}
+.status-online {
+	background-color: green;
+}
+.status-offline {
+	background-color: gray;
+}
+.status-dnd {
+	background-color: maroon;
+}
+.text-badge {
+	padding: 0.5rem;
+	background-color: var(--primary-color);
+	color: var(--secondary-font-color);
+	border-radius: 5px;
+}
